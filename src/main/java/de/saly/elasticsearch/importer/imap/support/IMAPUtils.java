@@ -49,6 +49,7 @@ public class IMAPUtils {
         FETCH_PROFILE_HEAD.add(Item.ENVELOPE);
         FETCH_PROFILE_HEAD.add(Item.CONTENT_INFO);
         FETCH_PROFILE_HEAD.add(FetchProfileItem.HEADERS);
+        FETCH_PROFILE_HEAD.add(FetchProfileItem.MESSAGE);
         FETCH_PROFILE_FLAGS_UID.add(Item.FLAGS);
         FETCH_PROFILE_FLAGS_UID.add(UIDFolder.FetchProfileItem.UID);
 
